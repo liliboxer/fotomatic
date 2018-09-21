@@ -44,8 +44,9 @@ body{
 header {
   position: fixed;
   width: 100%;
-  border-bottom: solid 1px #c6c1c1;
   background-color: white;
+  border-bottom: solid 1px #c6c1c1;
+  z-index: 1;
 }
 
 header .content {
@@ -53,7 +54,8 @@ header .content {
   align-items: center;
   padding: 0 30px;
   height: 85px;
-  color: #4A4A4A
+  color: #4A4A4A;
+
 }
 
 header .logo {
