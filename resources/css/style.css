@@ -170,11 +170,14 @@ header .mobile {
   font-family: "Rubik", sans-serif;
   font-size: 50px;
   line-height: 1.4;
+  margin-bottom: 12px;
 }
 
 #sign-up-cta .button {
   padding: 1.25rem 7.25rem;
+  margin-top: 26px;
 }
+
 
 @media only screen and (max-width: 760px) {
   #sign-up-section {
