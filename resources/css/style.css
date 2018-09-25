@@ -360,7 +360,7 @@ header .mobile {
 
 #quotes-section {
   background-color: #f3f3f3;
-  
+
 }
 
 #quotes-section .content {
@@ -412,6 +412,7 @@ footer .content {
 
 footer .copyright {
   flex-grow: 1;
+  font-size: 12px;
 }
 
 @media only screen and (min-width: 760px) {
