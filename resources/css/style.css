@@ -118,9 +118,6 @@ header .mobile {
     padding: 0;
   }
 
-  header .mobile li:nth-child(-n+3){
-    display: none;
-  }
 
   header .mobile .button {
     padding: .1875rem .5rem;
