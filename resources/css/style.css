@@ -130,6 +130,18 @@ header .mobile {
   }
 }
 
+@media only screen and (max-width: 420px){
+
+  header .content{
+    height: 48px;
+  }
+
+  header .mobile .button{
+    padding: 3px 8px;
+    radius: 4px;
+  }
+}
+
 /* Sign Up Section */
 
 #sign-up-section {
@@ -296,6 +308,21 @@ header .mobile {
   }
 }
 
+@media only screen and (max-width: 420px){
+  .feature{
+    margin: 0 auto;
+    height: auto;
+  }
+
+  .feature .image-container{
+    margin: 0 auto;
+  }
+
+  .content h2{
+    margin-top: 10px;
+  }
+
+}
 /* Filters Section */
 
 #filters-section {
@@ -395,6 +422,17 @@ header .mobile {
     display: block;
     padding-top: 1rem;
     margin: auto;
+  }
+}
+
+@media only screen and (max-width: 420px) {
+  .quote{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .quote-citation{
+    margin: 15px;
   }
 }
 
